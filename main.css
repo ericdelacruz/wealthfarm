@@ -246,7 +246,7 @@ article {
 	color: #ababab;
 }
 
-.sideDetails, .sideLinks li a {
+.sideDetails, .sideLinks li a, .radioInfo {
 	font-size: 14px;
 	color: #565656;
 }
