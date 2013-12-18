@@ -1,0 +1,433 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* --------HEADER--------- */
+header {
+	background-color: #f8f9fb;
+}
+
+.logo {
+	background-color: #f9fafc;
+	margin-top: 29px;
+}
+
+#menuColor {
+	background-color: #0e3d52;
+}
+
+.contactsBg {
+	background: url('images/social-bg.png') no-repeat; 
+	height:140px; 
+	width:443px;
+}
+
+.socialList {
+	margin-top: 39px;
+	margin-left: 205px;
+}
+
+.socialList li {
+	display: inline-block;
+	list-style: none;
+	margin-right: 10px;
+}
+
+#phoneNumber {
+	font-size: 27px;
+	font-weight: 700;
+	color: #0e3d52;
+	padding-left: 188px;
+}
+
+#emailAdd {
+	font-weight: 600;
+	font-size: 12px;
+	color: #0e3d52;
+	padding-left: 258px;
+}
+
+.menuNav {
+	padding-top: 14px;
+}
+
+.menuNav li {
+	font-size: 13px;
+	display: inline;
+	margin-right: 34px;
+}
+
+.menuNav li a {
+	color: #86a4b1;
+}
+
+.menuNav li a:hover {
+	color: #fff;
+	font-weight: 600;
+}
+
+/* --------HOME BODY-------- */
+.heroBg {
+	background: url('images/home-hero-bg.png') no-repeat;
+	height: 600px;
+}
+
+article {
+	background-color: #ececec;
+}
+
+#welcome {
+	font-size: 47px;
+	color: #fff;
+	margin-top: 22%;
+	margin-left: 18%;
+}
+
+#wealthfarmName {
+	font-weight: 700;
+	font-size: 56px;
+	color: #fff;
+	margin-left: 31%;
+	margin-top: 4%;
+}
+
+#financial {
+	font-size: 47px;
+	color: #fff;
+	margin-left: 24%;
+	margin-top: 4%;
+}
+
+#playVideo {
+	font-size: 42px;
+	color: #fff;
+	margin-left: 53%;
+	margin-top: 6%;
+}
+
+.playDiv {
+	position: relative;
+}
+
+#playBtn {
+	position: absolute;
+	top: 347px;
+	left: 715px;
+}
+
+#flowerBg {
+	position: absolute;
+	top: 252px;
+	left: 723px;
+}
+
+.picOne {
+	background-color: #d3d3d3;
+	height: 230px;
+}
+
+.picTwo {
+	background-color: #d3d3d3;
+	height: 230px;
+	margin-bottom: 2%;
+}
+
+
+/* ------- BLOG BODY ------- */
+.heroBgBlog {
+	background: url('images/blog-hero-bg.png') no-repeat;
+	height: 600px;
+}
+
+#experienceLine {
+	font-size: 42px;
+	color: #fff;
+	margin-left: 14%;
+	margin-top: 18%;
+}
+
+#successLine {
+	font-weight: bold;
+	font-size: 42px;
+	color: #fff;
+	margin-left: 21%;
+	margin-top: 4%;
+}
+
+#giveBackLine {
+	font-size: 42px;
+	color: #fff;
+	margin-left: 12%;
+	margin-top: 4%;
+}
+
+.flowerDivBlog {
+	position: relative;
+} 
+
+.flowerDivBlog #flowerBgBlog {
+	position: absolute;
+}
+
+.blogBodyBg {
+	background-color: #ececec;
+}
+
+#mainBlogTitle {
+	margin-top: 9%;
+	font-size: 40px;
+	margin-bottom: 7%;
+	color: #474f58;
+}
+
+.blogPicOne {
+	background: url('images/blog-pic-1.png') no-repeat;
+	height:227px;
+	margin-bottom: 3%;
+}
+
+.blogPicTwo {
+	background: url('images/blog-pic-2.png') no-repeat;
+	height:227px;
+	margin-bottom: 3%;
+}
+
+.blogPicThree {
+	background: url('images/blog-pic-3.png') no-repeat;
+	height:227px;
+	margin-bottom: 3%;
+}
+
+.blogDetails {
+	font-size: 14px;
+	color: #565656;
+}
+
+.blogTitle {
+	color: #005f89;
+}
+
+.blogBtn {
+	background: url('images/submit-button.png') no-repeat;
+	width: 123px;
+	height: 43px;
+	font-size: 11px;
+	padding-top: 2%;
+	padding-left: 7%;
+	margin-top: 7%;
+}
+
+#sideTitle {
+	color: #005f89;
+	margin-top: 20%;
+}
+
+.sideBarBlogTitle {
+	padding-top: 4%;
+	color: #005f89;
+}
+
+.blogMainPic {
+	background-color: #d3d3d3;
+	height: 465px;
+}
+
+.blogTopics {
+	padding-top: 4%;
+}
+
+.blogTextArea {
+	width: 257px;
+}
+
+.blogAuthor {
+	font-size: 12px;
+	font-weight: bold;
+	color: #ababab;
+}
+
+.sideDetails, .sideLinks li a {
+	font-size: 14px;
+	color: #565656;
+}
+
+/* -------- FORM -------- */
+.formBg {
+	background-color: #acd1e0;
+}
+
+
+.formDiv {
+	background: url('images/form-bg.png') no-repeat;
+	width: 490px;
+	height: 395px;
+	margin-top: 5%;
+	margin-left: 7%;
+	margin-bottom: 6%;
+}
+
+.formDiv h5 {
+	font-weight: 700;
+	font-size: 24px;
+	color: #005f89;
+	padding-top: 6%;
+}
+
+.formDiv p {
+	padding-top: 5%;
+}
+
+form {
+	padding-top: 5%;
+}
+
+.formDiv #submitBtn{
+	background: url('images/submit-button.png') no-repeat;
+	width: 123px;
+	height: 43px;
+	font-family: 'Exo', sans-serif;
+	font-weight: 800;
+	padding-top: 2%;
+	margin-left: 37%;
+
+}
+
+.formDiv #submitBtn a {
+	color: #fff;
+}
+
+.formDiv #submitBtn a:hover {
+	text-decoration: none;
+}
+
+.btnEnews {
+	margin-left: 88%;
+}
+
+.btnRequest {
+	margin-left: 84%;
+}
+
+.contentBtn {
+	background-color: #d3d3d3;
+	height: 40px;
+	width: 16%;
+	margin-top: 1%;
+	margin-left: 15%;
+}
+
+.contentBtn p {
+	padding-top: 5%;
+	padding-left: 26%;
+}
+
+.ctaBtn {
+	background-color: #d3d3d3;
+	height: 40px;
+	width: 35%;
+}
+
+.navList {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10%;
+}
+
+.navList li {
+	margin-top: 5%;
+}
+
+.navList li a {
+	font-size: 12px;
+	color: #828282;
+}
+
+h6 {
+	color: #0ea55c;
+	margin-top: 71px;
+}
+
+.adds {
+	margin-top: 72px;
+	color: #fff;
+}
+
+.caseTitle {
+	padding-top: 4%;
+}
+
+.contactTextArea {
+	width: 556px;
+}
+
+.phoneAdd {
+	margin-top: 4%;
+}
+
+#contactAdd {
+	margin-top: 19%;
+}
+
+.packagePic {
+	background-color: #d3d3d3;
+	width: 148px;
+	height: 130px;
+}
+
+#packageTitles {
+	border: none;
+}
+
+.packageDeals {
+	background-color: #d3d3d3; 
+	border: 1px solid;
+}
+
+.subFooter {
+	background-color: #363636;
+}
+
+address, #telephone {
+	color: #828282;
+	font-size: 12px;
+	padding-left: 20%;
+}
+
+.iconImg {
+	padding-left: 96px;
+}
+
+#socialIconList li {
+	display: inline;
+	margin-right: 4%
+}
+
+.socialIconSubFooter {
+	margin-top: 44%;
+	margin-left: 26%;
+}
+/* --------FOOTER---------- */
+footer {
+	background-color: #363636;
+}
+
+.footerPos {
+	padding-top: 2%;
+}
+
+.footerPos ul li {
+	display: inline;
+	margin-right: 2%;
+}
+
+.footerPos ul li a {
+	font-size: 13px;
+	color: #828282;
+}
+
+#copyRight {
+	font-size: 13px;
+	padding-bottom: 5%;
+	color: #93b1bd;
+}
