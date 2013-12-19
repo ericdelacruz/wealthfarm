@@ -1,5 +1,6 @@
 body {
 	font-family: 'Open Sans', sans-serif;
+	color: #565656;
 }
 
 /* --------HEADER--------- */
@@ -23,8 +24,7 @@ header {
 }
 
 .socialList {
-	margin-top: 39px;
-	margin-left: 205px;
+	margin: 39px 0 0 205px;
 }
 
 .socialList li {
@@ -79,30 +79,26 @@ article {
 #welcome {
 	font-size: 47px;
 	color: #fff;
-	margin-top: 22%;
-	margin-left: 18%;
+	margin: 22% 0 0 18%;
 }
 
 #wealthfarmName {
 	font-weight: 700;
 	font-size: 56px;
 	color: #fff;
-	margin-left: 31%;
-	margin-top: 4%;
+	margin: 4% 0 0 31%;
 }
 
 #financial {
 	font-size: 47px;
 	color: #fff;
-	margin-left: 24%;
-	margin-top: 4%;
+	margin: 4% 0 0 24%;
 }
 
 #playVideo {
 	font-size: 42px;
 	color: #fff;
-	margin-left: 53%;
-	margin-top: 6%;
+	margin: 6% 0 0 53%;
 }
 
 .playDiv {
@@ -142,23 +138,20 @@ article {
 #experienceLine {
 	font-size: 42px;
 	color: #fff;
-	margin-left: 14%;
-	margin-top: 18%;
+	margin: 18% 0 0 14%;
 }
 
 #successLine {
 	font-weight: bold;
 	font-size: 42px;
 	color: #fff;
-	margin-left: 21%;
-	margin-top: 4%;
+	margin: 4% 0 0 21%;
 }
 
 #giveBackLine {
 	font-size: 42px;
 	color: #fff;
-	margin-left: 12%;
-	margin-top: 4%;
+	margin: 4% 0 0 12%;
 }
 
 .flowerDivBlog {
@@ -167,6 +160,8 @@ article {
 
 .flowerDivBlog #flowerBgBlog {
 	position: absolute;
+	top: 106px;
+	left: 612px;
 }
 
 .blogBodyBg {
@@ -174,26 +169,22 @@ article {
 }
 
 #mainBlogTitle {
-	margin-top: 9%;
+	margin: 9% 0 7% 0;
 	font-size: 40px;
-	margin-bottom: 7%;
 	color: #474f58;
 }
 
-.blogPicOne {
-	background: url('images/blog-pic-1.png') no-repeat;
+.blogPicOne img {
 	height:227px;
 	margin-bottom: 3%;
 }
 
-.blogPicTwo {
-	background: url('images/blog-pic-2.png') no-repeat;
+.blogPicTwo img {
 	height:227px;
 	margin-bottom: 3%;
 }
 
-.blogPicThree {
-	background: url('images/blog-pic-3.png') no-repeat;
+.blogPicThree img {
 	height:227px;
 	margin-bottom: 3%;
 }
@@ -211,10 +202,21 @@ article {
 	background: url('images/submit-button.png') no-repeat;
 	width: 123px;
 	height: 43px;
-	font-size: 11px;
 	padding-top: 2%;
-	padding-left: 7%;
-	margin-top: 7%;
+	padding-left: 5%;
+	margin: 7% 0 7% 0;
+}
+
+#topics {
+	padding-bottom: 15%;
+}
+
+.blogBtn a {
+	font-family: 'Exo', sans-serif;
+	font-weight: 800;
+	font-style: italic;
+	font-size: 14px;
+	color: #fff;
 }
 
 #sideTitle {
@@ -227,17 +229,23 @@ article {
 	color: #005f89;
 }
 
-.blogMainPic {
-	background-color: #d3d3d3;
-	height: 465px;
+.hrDiv hr {
+	border-bottom: 1px solid #dcdcdc;
+	margin-bottom: 7%;
+}
+
+hr {
+	border-bottom: 1px solid #dcdcdc;
 }
 
 .blogTopics {
-	padding-top: 4%;
+	font-size: 12px;
+	color: #565656;
+	padding-top: 15%;
 }
 
 .blogTextArea {
-	width: 257px;
+	width: 355px;
 }
 
 .blogAuthor {
@@ -251,6 +259,92 @@ article {
 	color: #565656;
 }
 
+/* -------- BLOG VIEW ------- */
+.heroBgBlogView {
+	background: url('images/blog-view-hero-bg.png') no-repeat;
+	height: 600px;
+}
+
+.blogViewBody {
+	background-color: #ececec;
+}
+
+#believeLine {
+	font-size: 36px;
+	color: #fff;
+	margin: 27% 0 0 14%;
+}
+
+#wealthyLine {
+	font-size: 36px;
+	font-weight: 800;
+	color: #fff;
+	margin: 3% 0 0 39%;
+}
+
+#simplyLine {
+	font-size: 36px;
+	color: #fff;
+	margin: 2% 0 0 61%;
+}
+
+#flowerBgBlogView {
+	position: absolute;
+	top: 216px;
+	left: 948px;
+}
+
+.blogMainPic {
+	margin-top: 3%;
+}
+
+.blogViewIcons img {
+	margin-right: 1%;
+}
+
+.submitBtnBlogView {
+	background: url('images/submit-button.png') no-repeat;
+	width: 123px;
+	height: 43px;
+	padding: 1% 0 5% 5%;
+}
+
+.submitBtnBlogView a {
+	font-family: 'Exo', sans-serif;
+	font-weight: 800;
+	font-style: italic;
+	color: #fff;
+}
+
+/* -------CONTACTS------- */
+.heroBgContacts {
+	background: url('images/contact-hero-bg.png') no-repeat;
+	height:600px;
+}
+
+.mainBgContacts {
+	background-color: #ececec;
+}
+
+.mainBgContacts h1 {
+	color: #474f58;
+}
+
+#findLine {
+	font-size: 57px;
+	font-weight: 800;
+	color: #fff;
+	margin: 27% 0 0 50%;
+}
+
+#hereLine {
+	font-size: 69px;
+	color: #fff;
+}
+
+
+
+
 /* -------- FORM -------- */
 .formBg {
 	background-color: #acd1e0;
@@ -261,9 +355,7 @@ article {
 	background: url('images/form-bg.png') no-repeat;
 	width: 490px;
 	height: 395px;
-	margin-top: 5%;
-	margin-left: 7%;
-	margin-bottom: 6%;
+	margin: 5% 0 6% 7%;
 }
 
 .formDiv h5 {
@@ -277,22 +369,19 @@ article {
 	padding-top: 5%;
 }
 
-form {
-	padding-top: 5%;
-}
-
 .formDiv #submitBtn{
 	background: url('images/submit-button.png') no-repeat;
 	width: 123px;
 	height: 43px;
-	font-family: 'Exo', sans-serif;
-	font-weight: 800;
 	padding-top: 2%;
 	margin-left: 37%;
 
 }
 
 .formDiv #submitBtn a {
+	font-family: 'Exo', sans-serif;
+	font-weight: 800;
+	font-style: italic;
 	color: #fff;
 }
 
@@ -312,8 +401,7 @@ form {
 	background-color: #d3d3d3;
 	height: 40px;
 	width: 16%;
-	margin-top: 1%;
-	margin-left: 15%;
+	margin: 1% 0 0 15%;
 }
 
 .contentBtn p {
@@ -330,8 +418,7 @@ form {
 .navList {
 	list-style: none;
 	padding: 0;
-	margin: 0;
-	margin-bottom: 10%;
+	margin: 0 0 10% 0;
 }
 
 .navList li {
@@ -358,7 +445,7 @@ h6 {
 }
 
 .contactTextArea {
-	width: 556px;
+	width: 457px;
 }
 
 .phoneAdd {
@@ -404,8 +491,7 @@ address, #telephone {
 }
 
 .socialIconSubFooter {
-	margin-top: 44%;
-	margin-left: 26%;
+	margin: 44% 0 0 26%;
 }
 /* --------FOOTER---------- */
 footer {
