@@ -101,7 +101,7 @@ article {
 	margin: 6% 0 0 53%;
 }
 
-.playDiv {
+.playDiv, .flowerDivBlog, .flowerDivContact {
 	position: relative;
 }
 
@@ -153,10 +153,6 @@ article {
 	color: #fff;
 	margin: 4% 0 0 12%;
 }
-
-.flowerDivBlog {
-	position: relative;
-} 
 
 .flowerDivBlog #flowerBgBlog {
 	position: absolute;
@@ -326,8 +322,9 @@ hr {
 	background-color: #ececec;
 }
 
-.mainBgContacts h1 {
+.mainBgContacts h1, .mainBgOwners h1, #proTitle {
 	color: #474f58;
+	margin: 7% 0 5% 0;
 }
 
 #findLine {
@@ -340,11 +337,89 @@ hr {
 #hereLine {
 	font-size: 69px;
 	color: #fff;
+	margin: 6% 0 0 62%;
 }
 
+#flowerBgContact {
+	position: absolute;
+	margin-top: 171px;
+	right: 328px;
+}
 
+#locIconContacts {
+	position: absolute;
+	margin-top: 271px;
+	right: 434px;
+}
 
+#contactSubmitBtn {
+	background: url('images/submit-button.png') no-repeat;
+	width: 123px;
+	height: 43px;
+	padding: 10px 0 0 38px;
+	margin: 0 0 10% 0;
+}
 
+#contactSubmitBtn a {
+	font-family: 'Exo', sans-serif;
+	font-weight: 800;
+	font-style: italic;
+	color: #fff;
+}
+
+.mainBgContacts form input {
+	margin-bottom: 4%;
+}
+
+/* -------- BUSINESS OWNERS -------- */
+.heroBgOwners {
+	background: url('images/business-owners-hero-bg.png') no-repeat;
+	height: 600px;
+} 
+
+.mainBgOwners {
+	background-color: #ececec;
+}
+
+.mainBgOwners h3 {
+	color: #005f89;
+	margin-top: 10%;
+}
+
+.listBtn {
+	background: url('images/list-btn.png') no-repeat;
+	width: 163px;
+	height: 43px;
+	padding: 1% 0 0 3%;
+	margin: 3% 0 4% 0;
+}
+
+.listBtn a {
+	color: #fff;
+	font-family: 'Exo' sans-serif;
+	font-weight: 800;
+	font-style: italic;
+}
+
+.liteDeals h5, .packageDeals h5 {
+	color: #474f58;
+}
+
+#liteInfo {
+	color: #6d7279;
+	font-size: 11px;
+}
+
+#liteInfoBg2, #liteInfoBg4 {
+	background-color: #d4d4d4;
+}
+
+#price {
+	color: #0ea55c;
+	font-size: 18px;
+	font-weight: 800;
+	text-align: right;
+}
 /* -------- FORM -------- */
 .formBg {
 	background-color: #acd1e0;
@@ -375,7 +450,6 @@ hr {
 	height: 43px;
 	padding-top: 2%;
 	margin-left: 37%;
-
 }
 
 .formDiv #submitBtn a {
@@ -449,26 +523,36 @@ h6 {
 }
 
 .phoneAdd {
-	margin-top: 4%;
+	margin-top: 10%;
 }
 
-#contactAdd {
+.phoneAdd .contactsInfo {
+	color: #005f89;
+}
+
+#contactsAdd {
+	color: #005f89;
 	margin-top: 19%;
 }
 
+#contactsHrs {
+	color: #005f89;
+	margin-top: 19%;
+}
 .packagePic {
 	background-color: #d3d3d3;
 	width: 148px;
 	height: 130px;
 }
 
-#packageTitles {
+#packageTitles th, #planTitles th {
 	border: none;
+	font-weight: 800;
+	text-align: center;
 }
 
-.packageDeals {
-	background-color: #d3d3d3; 
-	border: 1px solid;
+.packageDeals, .liteDeals td {
+	border: 1px solid #dadada;
 }
 
 .subFooter {
