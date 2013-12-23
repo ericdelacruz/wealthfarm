@@ -37,7 +37,7 @@ header {
 	font-size: 27px;
 	font-weight: 700;
 	color: #0e3d52;
-	padding-left: 188px;
+	padding: 2% 0 0 43%;
 }
 
 #emailAdd {
@@ -59,11 +59,14 @@ header {
 
 .menuNav li a {
 	color: #86a4b1;
+	padding-bottom: 7px;
 }
 
 .menuNav li a:hover {
 	color: #fff;
 	font-weight: 600;
+	text-decoration: none;
+	border-bottom: 5px solid #0ea55c;
 }
 
 /* --------HOME BODY-------- */
@@ -388,9 +391,9 @@ hr {
 
 .listBtn {
 	background: url('images/list-btn.png') no-repeat;
-	width: 163px;
+	max-width: 100%;
 	height: 43px;
-	padding: 1% 0 0 3%;
+	padding: 1% 0 0 4%;
 	margin: 3% 0 4% 0;
 }
 
@@ -401,13 +404,17 @@ hr {
 	font-style: italic;
 }
 
-.liteDeals h5, .packageDeals h5 {
+.liteDeals h5, .packageDeals h5, .packageDeals2 h5, .packageDeals4 h5 {
 	color: #474f58;
 }
 
-#liteInfo {
+#liteInfo, .packageDeals p, .packageDeals2 p, .packageDeals4 p {
 	color: #6d7279;
 	font-size: 11px;
+}
+
+.packageDeals2, .packageDeals4 {
+	background-color: #d4d4d4;
 }
 
 #liteInfoBg2, #liteInfoBg4 {
@@ -420,6 +427,108 @@ hr {
 	font-weight: 800;
 	text-align: right;
 }
+
+#prices {
+	color: #0ea55c;
+	font-size: 18px;
+	font-weight: 800;
+}
+
+#packageCategories, #blankTd {
+	border: none;
+	width: 130px;
+}
+
+#packageCategories h5 {
+	padding-top: 30%;
+}
+
+.readMore td:not(#blankTd) {
+	background-color: #363636;
+	border: 1px solid #dadada;
+	text-align: center;
+}
+
+.readMore td a {
+	font-size: 12px;
+	font-weight: 700;
+	color: #828282;
+}
+
+#findBtn {
+	background: url('images/fom-btn.png') no-repeat;
+	max-width: 100%;
+	height: 71px;
+	padding: 7% 0 0 19%;
+	margin-top: 12%;
+}
+
+#findBtn a {
+	font-family: 'Exo', sans-serif;
+	font-weight: 800;
+	font-style: italic;
+	font-size: 26px;
+	color: #fff;
+
+}
+
+.sideBarOwners  h2 {
+	color: #005f89;
+	margin-left: 4%;
+}
+
+.caseStudy h2 {
+	color: #005f89;
+	margin: 10% 0 4% 6%;
+}
+
+.caseStudy {
+	background-color: #e3e3e3;
+	margin-top: 32%;
+}
+
+.quotation, .quotation1, .quotation2 {
+	position: relative;
+}
+
+#qStart {
+	position: absolute;
+	margin-left: 10%;
+}
+
+#qEnd {
+	position: absolute;
+	margin: 16% 0 0 37%;
+}
+
+#qEnd1 {
+	position: absolute;
+	margin: 17% 0 0 64%;
+}
+
+#qEnd2 {
+	position: absolute;
+	margin: 11% 0 0 75%;
+}
+
+blockquote {
+	text-indent: 12%;
+	margin-top: 5%;
+}
+
+#quoteAuthor {
+	font-weight: 700;
+	margin-left: 6%;
+}
+
+.quote1 {
+	margin-top: 9%;
+}
+
+.quote2, .quote3 {
+	margin-top: 20%;
+} 
+
 /* -------- FORM -------- */
 .formBg {
 	background-color: #acd1e0;
