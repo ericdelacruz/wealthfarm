@@ -5,7 +5,8 @@ body {
 
 /* --------HEADER--------- */
 header {
-	background-color: #f8f9fb;
+	background: url('images/header-bg.png') no-repeat;
+	max-width: 100%;
 }
 
 .logo {
@@ -121,14 +122,46 @@ article {
 }
 
 .picOne {
-	background-color: #d3d3d3;
-	height: 230px;
+	background: url('images/home-pic-1.jpg') no-repeat;
+	max-width: 100%;
+	margin-top: 3%;
+}
+
+.picOne h2 {
+	color: #fff;
+	text-align: center;
+	padding: 7% 0 2% 0;
+	max-width: 100%;
+}
+
+.picOne p {
+	font-size: 17px;
+	color: #fff;
+	text-align: center;
+	margin: 0 55px 65px 42px;
+}
+
+#readMoreHome a {
+	font-size: 17px;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 2%;
+	text-decoration: none;
+	border-bottom: dotted;
 }
 
 .picTwo {
-	background-color: #d3d3d3;
-	height: 230px;
-	margin-bottom: 2%;
+	background: url('images/home-pic-2.png') no-repeat;
+	max-width: 100%;
+	height: 341px;
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+
+.picTwo h2 {
+	color: #fff;
+	text-align: center;
+	padding-top: 44%;
 }
 
 
@@ -496,17 +529,17 @@ hr {
 	margin-left: 10%;
 }
 
-#qEnd {
+.quotation #qEnd {
 	position: absolute;
 	margin: 16% 0 0 37%;
 }
 
-#qEnd1 {
+ .quotation1 #qEnd1 {
 	position: absolute;
 	margin: 17% 0 0 64%;
 }
 
-#qEnd2 {
+ .quotation2 #qEnd2 {
 	position: absolute;
 	margin: 11% 0 0 75%;
 }
