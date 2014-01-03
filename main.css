@@ -376,13 +376,13 @@ hr {
 	margin: 6% 0 0 62%;
 }
 
-#flowerBgContact {
+.flowerDivContact #flowerBgContact {
 	position: absolute;
 	margin-top: 171px;
 	right: 328px;
 }
 
-#locIconContacts {
+.flowerDivContact #locIconContacts {
 	position: absolute;
 	margin-top: 271px;
 	right: 434px;
